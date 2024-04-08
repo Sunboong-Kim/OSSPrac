@@ -22,7 +22,6 @@ public class Student {
         System.out.print("학년을 입력하세요: ");
         String grade = sc.nextLine();
 
-
         System.out.println("<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번: " + id);
