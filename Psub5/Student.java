@@ -7,19 +7,23 @@ public class Student {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("이름을 입력하세요 :");
+        System.out.print("이름을 입력하세요: ");
         String name = sc.nextLine();
 
-        System.out.print("학번을 입력하세요 :");
+        System.out.print("학번을 입력하세요: ");
         String id = sc.nextLine();
 
-        System.out.print("학과를 입력하세요 :");
+        System.out.print("학과를 입력하세요: ");
         String dept = sc.nextLine();
+
+        System.out.print("학교를 입력하세요: ");
+        String school = sc.nextLine();
 
         System.out.println("<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번: " + id);
         System.out.println("학과: " + dept);
+        System.out.println("학교: " + school);
 
         sc.close();
 
