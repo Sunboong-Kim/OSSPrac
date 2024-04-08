@@ -16,13 +16,18 @@ public class Student {
         System.out.print("학과를 입력하세요: ");
         String dept = sc.nextLine();
 
+        System.out.print("학교를 입력하세요: ");
+        String school = sc.nextLine();
+
         System.out.print("학년을 입력하세요: ");
         String grade = sc.nextLine();
+
 
         System.out.println("<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번: " + id);
         System.out.println("학과: " + dept);
+        System.out.println("학교: " + school);
         System.out.println("학년: " + grade);
 
         sc.close();
